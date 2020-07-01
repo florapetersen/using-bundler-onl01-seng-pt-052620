@@ -10,6 +10,6 @@ group :development do
 gem "pry"
 end
 
-group :test do #this is a test 
-gem "rspec"
+group :test do #this is a test group
+gem "rspec" #include rspec gem in test group using block syntax
 end
